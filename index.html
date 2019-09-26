@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+  <body>
+    <table>
+      <thead>
+      <tr>
+        <td id="haut">
+          <p>Votre identité</p><br>
+          <label for="nom">1. Nom:</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom"><br>
+          <label for="prénom">2. Prénom:</label>
+            <input type="text" id="prénom" name="prénom" placeholder="Prénom"><br>
+          <label for="mail">3. Adresse mail:</label>
+            <input type="email" id="mail" name="mail" placeholder="Adresse mail">
+        </td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td id="milieu">
+          <p>Adresse de livraison</p><br>
+          <label for="adresse">1. Adresse:</label>
+            <textarea cols="25" rows="5"></textarea><br>
+          <label for="postal">2. code postal:</label>
+            <input type="text" id="postal" name="postal" placeholder="Code postal"><br>
+          <label for="ville">3. Ville:</label>
+            <input type="text" id="ville" name="ville" placeholder="Ville">
+        </td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td id="bas">
+          <p>Information de réglement</p><br>
+          <label for="type de carte">1. Type de carte bancaire:</label><br>
+            <input type="radio" id="visa" name="visa">
+          <label for="Visa">Visa</label><br>
+            <input type="radio" id="mastercard" name="mastercard">
+          <label for="mastercard">Mastercard</label><br>
+          <label for="numéro">2. Numéro de carte:</label>
+            <input type="text" id="numéro" name="numéro" placeholder="Numéro de carte"><br>
+          <label for="code">3. Code de sécurité:</label>
+            <input type="text" id="code" name="code" placeholder="Code de sécurité"><br>
+          <label for="titulaire">4. Nom du titulaire:</label>
+            <input type="text" id="titulaire" name="titulaire" placeholder="Nom du titulaire"><br>
+        </td>
+      </tr>
+      </tfoot>
+    </table>
+    <input type="submit" value="J'achète !">
+  </body>
+</html>
